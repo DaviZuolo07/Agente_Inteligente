@@ -1,0 +1,19 @@
+arquivo,titulo,tipo,materia,data,url_fonte
+enem_matriz_referencia.pdf,Matriz de Referência do ENEM (INEP) — PDF original,original_ocr,geral,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_eixos_cognitivos.md,Matriz de Referência do ENEM (INEP) — Eixos cognitivos,matriz,geral,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_matematica.md,Matriz de Referência do ENEM (INEP) — Matemática e suas Tecnologias,matriz,matematica,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_ciencias_natureza.md,Matriz de Referência do ENEM (INEP) — Ciências da Natureza (competências e habilidades),matriz,biologia|fisica,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_fisica.md,Matriz de Referência do ENEM (INEP) — Objetos de conhecimento de Física,matriz,fisica,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_biologia.md,Matriz de Referência do ENEM (INEP) — Objetos de conhecimento de Biologia,matriz,biologia,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+matriz_ciencias_humanas.md,Matriz de Referência do ENEM (INEP) — Ciências Humanas e suas Tecnologias,matriz,hist_geo,,https://download.inep.gov.br/enem/outros_documentos/enem_matriz_referencia.pdf
+cartilha_redacao_enem_2025.pdf,A Redação no Enem 2025 — Cartilha do Participante (INEP) — PDF original,original_ocr,redacao,2025-09,https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/redacao-do-enem-2025-cartilha-do-a-participante
+cartilha_redacao_enem_2025.md,A Redação no Enem 2025 — Cartilha do Participante (INEP),cartilha,redacao,2025-09,https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/redacao-do-enem-2025-cartilha-do-a-participante
+edital_enem_2026.pdf,"Edital Inep nº 64, de 21 de maio de 2026 — ENEM 2026",edital,geral,2026-05-21,https://www.gov.br/inep/pt-br/centrais-de-conteudo/legislacao/enem
+enem2024_d1_caderno_azul.pdf,"ENEM 2024 — 1º dia, Caderno Azul (INEP)",caderno,geral,2024-11-03,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2024_d1_gabarito.pdf,"ENEM 2024 — 1º dia, Gabarito oficial (INEP)",gabarito,geral,2024-11-03,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2024_d2_caderno_azul.pdf,"ENEM 2024 — 2º dia, Caderno Azul (INEP)",caderno,geral,2024-11-10,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2024_d2_gabarito.pdf,"ENEM 2024 — 2º dia, Gabarito oficial (INEP)",gabarito,geral,2024-11-10,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2025_d1_caderno_azul.pdf,"ENEM 2025 — 1º dia, Caderno Azul (INEP)",caderno,geral,2025-11-09,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2025_d1_gabarito.pdf,"ENEM 2025 — 1º dia, Gabarito oficial (INEP)",gabarito,geral,2025-11-09,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2025_d2_caderno_azul.pdf,"ENEM 2025 — 2º dia, Caderno Azul (INEP)",caderno,geral,2025-11-16,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
+enem2025_d2_gabarito.pdf,"ENEM 2025 — 2º dia, Gabarito oficial (INEP)",gabarito,geral,2025-11-16,https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos
