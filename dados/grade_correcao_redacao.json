@@ -1,0 +1,136 @@
+{
+  "fonte": "A Redação no Enem 2025 — Cartilha do Participante (INEP)",
+  "url_fonte": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/avaliacoes-e-exames-da-educacao-basica/redacao-do-enem-2025-cartilha-do-a-participante",
+  "observacao": "Descritores dos níveis transcritos literalmente dos quadros oficiais (páginas do PDF). 'o_que_avalia' resume o texto da Cartilha sobre cada competência.",
+  "competencias": [
+    {
+      "id": "C1",
+      "nome": "Demonstrar domínio da modalidade escrita formal da língua portuguesa",
+      "paginas": "14–16",
+      "o_que_avalia": [
+        "Estrutura sintática: períodos completos e bem estruturados; para a nota máxima, espera-se complexidade (orações subordinadas e intercaladas). Falhas típicas: truncamento (ponto final separando orações de um mesmo período), justaposição (vírgula no lugar de ponto final), ausência ou excesso de termos.",
+        "Desvios de convenções da escrita: acentuação, ortografia, hífen, maiúsculas e minúsculas, separação silábica.",
+        "Desvios gramaticais: regência verbal e nominal, concordância verbal e nominal, tempos e modos verbais, pontuação, paralelismo sintático, morfológico e semântico, emprego de pronomes e crase.",
+        "Escolha de registro: adequação à modalidade escrita formal, sem registro informal nem marcas de oralidade.",
+        "Escolha vocabular: palavras usadas no sentido correto e apropriadas ao contexto.",
+        "A frequência das falhas e o quanto prejudicam a compreensão definem o nível."
+      ],
+      "niveis": {
+        "200": "Demonstra excelente domínio da modalidade escrita formal da língua portuguesa e de escolha de registro. Desvios gramaticais ou de convenções da escrita serão aceitos somente como excepcionalidade e quando não caracterizarem reincidência.",
+        "160": "Demonstra bom domínio da modalidade escrita formal da língua portuguesa e de escolha de registro, com poucos desvios gramaticais e de convenções da escrita.",
+        "120": "Demonstra domínio mediano da modalidade escrita formal da língua portuguesa e de escolha de registro, com alguns desvios gramaticais e de convenções da escrita.",
+        "80": "Demonstra domínio insuficiente da modalidade escrita formal da língua portuguesa, com muitos desvios gramaticais, de escolha de registro e de convenções da escrita.",
+        "40": "Demonstra domínio precário da modalidade escrita formal da língua portuguesa, de forma sistemática, com diversificados e frequentes desvios gramaticais, de escolha de registro e de convenções da escrita.",
+        "0": "Demonstra desconhecimento da modalidade escrita formal da língua portuguesa."
+      }
+    },
+    {
+      "id": "C2",
+      "nome": "Compreender a proposta de redação e aplicar conceitos das várias áreas de conhecimento para desenvolver o tema, dentro dos limites estruturais do texto dissertativo-argumentativo em prosa",
+      "paginas": "16–18, 26–28",
+      "o_que_avalia": [
+        "Tema: atender ao recorte temático. Tangenciamento é a abordagem parcial, baseada só no assunto mais amplo a que o tema está vinculado. Fuga total ao tema anula a redação.",
+        "Tipo textual: dissertativo-argumentativo, com ponto de vista claro defendido por argumentação (proposição, argumentação e conclusão). Predominância de outro tipo textual (narrativo, descritivo) zera a redação; muitas características de outro tipo em texto predominantemente dissertativo-argumentativo são penalizadas na C2.",
+        "Repertório sociocultural: informação, fato, citação ou experiência relacionada ao tema que funcione como argumento. Precisa ser legitimado, pertinente ao tema e PRODUTIVO (articulado à defesa do ponto de vista). Repertório 'de bolso' (genérico, decorado, decorativo, sem conexão genuína com o tema) não é produtivo.",
+        "Cópia dos textos motivadores é avaliada negativamente; o texto deve extrapolar a coletânea."
+      ],
+      "niveis": {
+        "200": "Desenvolve o tema por meio de argumentação consistente, a partir de um repertório sociocultural produtivo, e apresenta excelente domínio do texto dissertativo-argumentativo.",
+        "160": "Desenvolve o tema por meio de argumentação consistente e apresenta bom domínio do texto dissertativo-argumentativo, com proposição, argumentação e conclusão.",
+        "120": "Desenvolve o tema por meio de argumentação previsível e apresenta domínio mediano do texto dissertativo-argumentativo, com proposição, argumentação e conclusão.",
+        "80": "Desenvolve o tema recorrendo à cópia de trechos dos textos motivadores ou apresenta domínio insuficiente do texto dissertativo-argumentativo, não atendendo à estrutura com proposição, argumentação e conclusão.",
+        "40": "Apresenta o assunto, tangenciando o tema, ou demonstra domínio precário do texto dissertativo-argumentativo, com traços constantes de outros tipos textuais.",
+        "0": "Fuga ao tema/não atendimento à estrutura dissertativo-argumentativa. Nestes casos a redação recebe nota 0 (zero) e é anulada."
+      }
+    },
+    {
+      "id": "C3",
+      "nome": "Selecionar, relacionar, organizar e interpretar informações, fatos, opiniões e argumentos em defesa de um ponto de vista",
+      "paginas": "29–32",
+      "o_que_avalia": [
+        "Inteligibilidade e coerência: seleção de argumentos, relação de sentido entre as partes, progressão adequada e desenvolvimento dos argumentos.",
+        "Projeto de texto: planejamento perceptível pela organização estratégica dos argumentos (o que defender e em que ordem).",
+        "Desenvolvimento: explicitar e explicar informações, fatos e opiniões (exemplos, definições, comparações, analogias, estatísticas), sem lacunas de sentido.",
+        "Autoria: o texto vai além dos argumentos dos textos motivadores.",
+        "Penalizam: informações soltas, repetições, saltos temáticos, contradições, argumentos limitados à coletânea."
+      ],
+      "niveis": {
+        "200": "Apresenta informações, fatos e opiniões relacionados ao tema proposto, de forma consistente e organizada, configurando autoria, em defesa de um ponto de vista.",
+        "160": "Apresenta informações, fatos e opiniões relacionados ao tema, de forma organizada, com indícios de autoria, em defesa de um ponto de vista.",
+        "120": "Apresenta informações, fatos e opiniões relacionados ao tema, limitados aos argumentos dos textos motivadores e pouco organizados, em defesa de um ponto de vista.",
+        "80": "Apresenta informações, fatos e opiniões relacionados ao tema, mas desorganizados ou contraditórios e limitados aos argumentos dos textos motivadores, em defesa de um ponto de vista.",
+        "40": "Apresenta informações, fatos e opiniões pouco relacionados ao tema ou incoerentes e sem defesa de um ponto de vista.",
+        "0": "Apresenta informações, fatos e opiniões não relacionados ao tema e sem defesa de um ponto de vista."
+      }
+    },
+    {
+      "id": "C4",
+      "nome": "Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação",
+      "paginas": "32–35",
+      "o_que_avalia": [
+        "Articulação entre os parágrafos e dentro deles, com operadores argumentativos que estabeleçam relações lógicas (adição, oposição, causa, consequência, conclusão etc.).",
+        "Estruturação dos parágrafos e dos períodos (períodos complexos, com duas ou mais orações).",
+        "Referenciação: retomada de termos por pronomes, advérbios, artigos, sinônimos, hipônimos e elipse.",
+        "Penalizam: ausência de articulação entre orações, frases e parágrafos; ausência de paragrafação; conector sem relação lógica; repetição ou substituição inadequada de palavras.",
+        "Coesivos usados de forma artificial ou excessiva não melhoram a nota: precisam estabelecer relações lógicas adequadas."
+      ],
+      "niveis": {
+        "200": "Articula bem as partes do texto e apresenta repertório diversificado de recursos coesivos.",
+        "160": "Articula as partes do texto, com poucas inadequações, e apresenta repertório diversificado de recursos coesivos.",
+        "120": "Articula as partes do texto, de forma mediana, com inadequações, e apresenta repertório pouco diversificado de recursos coesivos.",
+        "80": "Articula as partes do texto, de forma insuficiente, com muitas inadequações, e apresenta repertório limitado de recursos coesivos.",
+        "40": "Articula as partes do texto de forma precária.",
+        "0": "Não articula as informações."
+      }
+    },
+    {
+      "id": "C5",
+      "nome": "Elaborar proposta de intervenção para o problema abordado, respeitando os direitos humanos",
+      "paginas": "35–39",
+      "o_que_avalia": [
+        "Proposta explícita e concreta, relacionada ao tema e articulada ao projeto de texto (responde aos problemas discutidos).",
+        "Elementos: AÇÃO (elemento essencial), AGENTE que a executa, MODO/MEIO de execução, EFEITO/FINALIDADE e DETALHAMENTO de algum desses elementos (exemplificação, explicação etc.).",
+        "Não configuram proposta: apenas constatar a falta de algo ('faltam investimentos em x') ou estruturas condicionais ('se x for feito, o resultado poderá ser y'). Propostas vagas ou genéricas são penalizadas.",
+        "Desrespeito aos direitos humanos (tortura, 'justiça com as próprias mãos', incitação à violência, discurso de ódio) leva a nota 0 na C5."
+      ],
+      "niveis": {
+        "200": "Elabora muito bem proposta de intervenção, detalhada, relacionada ao tema e articulada à discussão desenvolvida no texto.",
+        "160": "Elabora bem proposta de intervenção relacionada ao tema e articulada à discussão desenvolvida no texto.",
+        "120": "Elabora, de forma mediana, proposta de intervenção relacionada ao tema e articulada à discussão desenvolvida no texto.",
+        "80": "Elabora, de forma insuficiente, proposta de intervenção relacionada ao tema, ou não articulada com a discussão desenvolvida no texto.",
+        "40": "Apresenta proposta de intervenção vaga, precária ou relacionada apenas ao assunto.",
+        "0": "Não apresenta proposta de intervenção ou apresenta proposta não relacionada ao tema ou ao assunto."
+      }
+    }
+  ],
+  "regras_gerais": {
+    "nota_zero": {
+      "paginas": "9–11",
+      "itens": [
+        "fuga total ao tema",
+        "não obediência ao tipo dissertativo-argumentativo",
+        "extensão de até 7 (sete) linhas manuscritas, qualquer que seja o conteúdo",
+        "impropérios, desenhos e outras formas propositais de anulação",
+        "parte deliberadamente desconectada do tema proposto (reflexões sobre a prova ou o próprio desempenho, bilhetes à banca, mensagens religiosas, políticas ou de protesto, trechos de música ou poema desarticulados da argumentação)",
+        "nome, assinatura, rubrica ou qualquer outra forma de identificação",
+        "texto predominantemente ou integralmente em língua estrangeira",
+        "texto ilegível"
+      ],
+      "copia": "Linhas com cópia (integral ou parcial) da Prova de Redação ou do Caderno de Questões são desconsideradas na contagem do mínimo de linhas."
+    },
+    "tangenciamento": {
+      "paginas": "27, 41",
+      "regra": "O tangenciamento ao tema, avaliado na Competência II, afeta também as Competências III e V, impedindo nota acima de 40 pontos em todas essas competências."
+    },
+    "titulo": {
+      "paginas": "11",
+      "regra": "O título é opcional; conta como linha escrita, mas não é avaliado nas competências."
+    },
+    "discrepancia": {
+      "paginas": "8–9",
+      "regra": "Dois avaliadores independentes, 0 a 200 por competência; nota final = média das duas notas totais. Há discrepância quando as notas diferem em mais de 100 pontos no total ou em mais de 80 pontos em qualquer competência. Nesse caso, um terceiro avaliador corrige de forma independente e a nota final é a média das duas notas totais que mais se aproximarem. Se a discrepância continuar, a redação vai para uma banca de três avaliadores.",
+      "limite_total": 100,
+      "limite_competencia": 80
+    }
+  }
+}

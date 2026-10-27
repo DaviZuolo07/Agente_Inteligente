@@ -1,0 +1,866 @@
+{
+  "observacao": "Guia 'como digitar' e formulário de Matemática do Tutor ENEM. Blocos e temas: objetos de conhecimento da Matriz de Referência do ENEM (INEP), Matemática e suas Tecnologias. Fórmulas: resultados clássicos do ensino médio. Todo exemplo é executado pelo motor da Seção 7.6 no Run All e conferido com assert: se um resultado não bater, a célula 7.6.3 para.",
+  "fonte_temas": "docs/enem_matriz_referencia.pdf (objetos de conhecimento de Matemática)",
+  "verbetes": [
+    {
+      "id": "operacoes",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Operações básicas",
+      "palavras": "soma somar subtracao multiplicacao multiplicar divisao dividir vezes mais menos",
+      "caderno": "3 × 4 · 12 ÷ 3 · 2 + 5 − 1",
+      "digitar": [
+        "3 * 4  (ou 3 x 4, ou 3 vezes 4)",
+        "12 / 3  (ou 12 dividido por 3)",
+        "2 + 5 - 1  (ou 2 mais 5 menos 1)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "3 x 4 + 12 / 3",
+          "resultado": "Resultado: 16"
+        }
+      ],
+      "explicacao": "A ordem do caderno vale: primeiro potência, depois × e ÷, por último + e −. Na dúvida, use parênteses."
+    },
+    {
+      "id": "decimais",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Decimais, milhar e argumentos",
+      "palavras": "decimal virgula ponto milhar milhares separador ponto e virgula argumento",
+      "caderno": "2,5 · 1.500 · comb(10, 3)",
+      "digitar": [
+        "2,5  (ou 2.5)",
+        "1500  (sem ponto de milhar; 1.500,00 completo também vale)",
+        "argumentos de função separados por ';': comb(10; 3)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "2,5 * 1500",
+          "resultado": "Resultado: 3.750"
+        },
+        {
+          "digitar": "juros_compostos(1000; 0,02; 12)",
+          "resultado": "Montante: R$ 1.268,24"
+        }
+      ],
+      "explicacao": "A vírgula é do número (2,5); o ';' separa os valores dentro de uma função. Assim 0,02 nunca é confundido com dois números."
+    },
+    {
+      "id": "parenteses",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Parênteses e multiplicação sem sinal",
+      "palavras": "parenteses multiplicacao implicita colado",
+      "caderno": "2(3 + 1) · (x + 1)(x − 1) · 5x",
+      "digitar": [
+        "2(3 + 1)",
+        "(x + 1)(x - 1)",
+        "5x  (número colado na letra = multiplicação)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "2(3 + 1)^2",
+          "resultado": "Resultado: 32"
+        }
+      ],
+      "explicacao": "Número ou parêntese colado em parêntese é multiplicação, como no caderno. Use parênteses para separar numerador e denominador: (a + b)/(c + d)."
+    },
+    {
+      "id": "fracoes",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Frações",
+      "palavras": "fracao fracoes meio terco quarto numerador denominador mista",
+      "caderno": "¾ + ½ · 2 ⅓",
+      "digitar": [
+        "3/4 + 1/2",
+        "fração mista: 2 + 1/3",
+        "½, ⅓, ¼ e ¾ também são aceitos"
+      ],
+      "exemplos": [
+        {
+          "digitar": "3/4 + 1/2",
+          "resultado": "5/4 = 1,25"
+        },
+        {
+          "digitar": "2 + 1/3",
+          "resultado": "7/3 ≈ 2,3333"
+        }
+      ],
+      "explicacao": "O resultado sai como fração exata e em decimal. Fração de uma quantidade: veja 'fração de'."
+    },
+    {
+      "id": "fracao_de",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Fração de uma quantidade",
+      "palavras": "fracao de quantidade metade dobro triplo terco parte",
+      "caderno": "⅔ de 450 · metade de 80",
+      "digitar": [
+        "2/3 de 450  (ou (2/3)*450)",
+        "metade de 80, o dobro de 7, o triplo de 5, terça parte de 90"
+      ],
+      "exemplos": [
+        {
+          "digitar": "2/3 de 450",
+          "resultado": "Resultado: 300"
+        },
+        {
+          "digitar": "a metade de 80",
+          "resultado": "Resultado: 40"
+        }
+      ],
+      "explicacao": "'De' depois de fração ou porcentagem significa multiplicar: 2/3 de 450 = (2/3) × 450."
+    },
+    {
+      "id": "potencia",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Potência",
+      "palavras": "potencia expoente elevado quadrado cubo",
+      "caderno": "2⁵ · x² · 2⁻¹",
+      "digitar": [
+        "2^5  (ou 2 elevado a 5)",
+        "x^2, x², 3 ao quadrado, 2 ao cubo",
+        "expoente negativo ou fracionário entre parênteses: 2^(-1), 8^(1/3)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "2 elevado a 5",
+          "resultado": "Resultado: 32"
+        },
+        {
+          "digitar": "2^(-1)",
+          "resultado": "1/2 = 0,5"
+        }
+      ],
+      "explicacao": "Cuidado: -2^2 = -4 (a potência vem antes do sinal). Para (−2)², escreva (-2)^2."
+    },
+    {
+      "id": "raiz",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Raiz quadrada e cúbica",
+      "palavras": "raiz quadrada cubica radical indice",
+      "caderno": "√16 · ∛27 · ⁴√81",
+      "digitar": [
+        "sqrt(16), raiz(16), √16 ou raiz de 16",
+        "cúbica: raiz cúbica de 27, ∛27 ou raiz(27; 3)",
+        "outro índice: raiz(81; 4)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "raiz de 16",
+          "resultado": "Resultado: 4"
+        },
+        {
+          "digitar": "raiz cúbica de -8",
+          "resultado": "Resultado: -2"
+        },
+        {
+          "digitar": "raiz(81; 4)",
+          "resultado": "Resultado: 3"
+        }
+      ],
+      "explicacao": "Raiz que não é exata sai simplificada e em decimal: sqrt(8) = 2√2 ≈ 2,8284."
+    },
+    {
+      "id": "notacao_cientifica",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Notação científica",
+      "palavras": "notacao cientifica potencia de 10 dez",
+      "caderno": "2,5 · 10³ · (3 · 10⁸) ÷ (1,5 · 10³)",
+      "digitar": [
+        "2,5 x 10^3  (ou 2,5 * 10^3)",
+        "divisão entre notações: (3 x 10^8) / (1,5 x 10^3)",
+        "não use 1e5"
+      ],
+      "exemplos": [
+        {
+          "digitar": "(3 x 10^8) / (1,5 x 10^3)",
+          "resultado": "Resultado: 200.000"
+        }
+      ],
+      "explicacao": "Na divisão, coloque cada número entre parênteses: sem eles, 3 x 10^8 / 1,5 x 10^3 multiplicaria pelo 10^3."
+    },
+    {
+      "id": "porcentagem",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Porcentagem",
+      "palavras": "porcentagem porcento percentual por cento",
+      "caderno": "15% de 240",
+      "digitar": [
+        "15% de 240",
+        "15 por cento de 240",
+        "porcentagem(15; 240)",
+        "15% sozinho vale 15/100 = 0,15"
+      ],
+      "exemplos": [
+        {
+          "digitar": "15% de 240",
+          "resultado": "Resultado: 36"
+        },
+        {
+          "digitar": "porcentagem(15; 240)",
+          "resultado": "Resultado: 36"
+        }
+      ],
+      "explicacao": "x% de um valor = x/100 × valor. Aumento e desconto: veja 'aumento e desconto'."
+    },
+    {
+      "id": "mmc_mdc",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "MMC e MDC",
+      "palavras": "mmc mdc minimo multiplo comum maximo divisor comum",
+      "caderno": "mmc(4, 6, 10) · mdc(12, 18)",
+      "digitar": [
+        "mmc(4; 6; 10)",
+        "mdc(12; 18)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "mmc(4; 6; 10)",
+          "resultado": "Resultado: 60"
+        },
+        {
+          "digitar": "mdc(12; 18)",
+          "resultado": "Resultado: 6"
+        }
+      ],
+      "explicacao": "MMC: quando eventos que se repetem voltam a coincidir, ou o denominador comum de frações. MDC: dividir em partes iguais com o maior tamanho possível."
+    },
+    {
+      "id": "fatorial",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Fatorial",
+      "palavras": "fatorial exclamacao",
+      "caderno": "5!",
+      "digitar": [
+        "5!",
+        "fatorial(5) ou fatorial de 5"
+      ],
+      "exemplos": [
+        {
+          "digitar": "5!",
+          "resultado": "Resultado: 120"
+        },
+        {
+          "digitar": "10!/(3! * 7!)",
+          "resultado": "Resultado: 120"
+        }
+      ],
+      "explicacao": "n! = n × (n−1) × … × 1, e 0! = 1. Aceita n até 1000."
+    },
+    {
+      "id": "logaritmo",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Logaritmo",
+      "palavras": "logaritmo log ln base natural",
+      "caderno": "log₂ 8 · log 1000 · ln e²",
+      "digitar": [
+        "log(8; 2)  (base 2)",
+        "log(1000)  (sem base = base 10)",
+        "ln(x)  (base e)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "log(8; 2)",
+          "resultado": "Resultado: 3"
+        },
+        {
+          "digitar": "log(1000)",
+          "resultado": "Resultado: 3"
+        }
+      ],
+      "explicacao": "log_b(a) = x significa b^x = a. No Brasil, log sem base é base 10."
+    },
+    {
+      "id": "trigonometria",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Seno, cosseno e tangente",
+      "palavras": "seno cosseno tangente sen cos tg angulo graus radianos",
+      "caderno": "sen 30° · cos 60° · tg 45°",
+      "digitar": [
+        "sen(30), cos(60), tg(45)  (em graus)",
+        "com pi, em radianos: sen(pi/6)"
+      ],
+      "exemplos": [
+        {
+          "digitar": "sen(30)",
+          "resultado": "1/2 = 0,5"
+        },
+        {
+          "digitar": "tg(45)",
+          "resultado": "Resultado: 1"
+        }
+      ],
+      "explicacao": "Escreva o ângulo sem o símbolo °. Ângulos notáveis saem exatos (sen 60° = √3/2)."
+    },
+    {
+      "id": "equacoes",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Equações",
+      "palavras": "equacao incognita resolver igualdade raizes",
+      "caderno": "2x + 3 = 11",
+      "digitar": [
+        "2x + 3 = 11",
+        "resolver(2x + 3 = 11)",
+        "x² − 5x + 6 = 0: x^2 - 5x + 6 = 0"
+      ],
+      "exemplos": [
+        {
+          "digitar": "2x + 3 = 11",
+          "resultado": "x = 4"
+        },
+        {
+          "digitar": "x^2 - 5x + 6 = 0",
+          "resultado": "x = 2 ou x = 3"
+        }
+      ],
+      "explicacao": "A incógnita é uma letra só (x, y, t...). A resposta traz só as soluções reais."
+    },
+    {
+      "id": "sistemas",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Sistemas de equações",
+      "palavras": "sistema sistemas equacoes duas incognitas",
+      "caderno": "{ x + y = 10 ; x − y = 2 }",
+      "digitar": [
+        "resolver(x + y = 10; x - y = 2)",
+        "até 3 equações, separadas por ';'"
+      ],
+      "exemplos": [
+        {
+          "digitar": "resolver(x + y = 10; x - y = 2)",
+          "resultado": "x = 6; y = 4"
+        }
+      ],
+      "explicacao": "Cada equação separada por ';'. Se sobrar incógnita livre, o sistema tem infinitas soluções."
+    },
+    {
+      "id": "lista_de_dados",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "Lista de dados (média, moda, mediana)",
+      "palavras": "lista dados media moda mediana desvio padrao tabela",
+      "caderno": "6, 7, 7, 9",
+      "digitar": [
+        "use a tool estatistica_descritiva: 6; 7; 7; 9",
+        "valor com frequência 3 entra 3 vezes"
+      ],
+      "exemplos": [
+        {
+          "digitar": "6; 7; 7; 9",
+          "resultado": "Média: 7,25",
+          "tool": "estatistica_descritiva"
+        }
+      ],
+      "explicacao": "Para listas, a calculadora não é a tool certa: estatistica_descritiva dá todas as medidas de uma vez."
+    },
+    {
+      "id": "limites",
+      "bloco": "Como digitar (notação)",
+      "tipo": "notacao",
+      "titulo": "O que a calculadora não aceita",
+      "palavras": "nao aceita erro limites inequacao desigualdade maior menor",
+      "caderno": "x > 2 · 1e5 · xy",
+      "digitar": [
+        "inequações (<, >): resolva a equação com '=' e estude o sinal",
+        "1e5: escreva 1 x 10^5",
+        "incógnita de 2 letras: use 1 letra e * entre letras (2*x*y)"
+      ],
+      "exemplos": [],
+      "explicacao": "Até 1000 caracteres por conta. Envie a conta montada, não o enunciado inteiro."
+    },
+    {
+      "id": "regra_de_tres",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Regra de três",
+      "palavras": "regra de tres proporcao proporcional direta inversa grandezas",
+      "caderno": "a/b = c/x",
+      "digitar": [
+        "resolver(3/12 = 5/x)",
+        "inversa: multiplique em linha, ex.: 4 * 6 / 3"
+      ],
+      "formula": "direta: a/b = c/x · inversa: a·b = c·x",
+      "exemplos": [
+        {
+          "digitar": "resolver(3/12 = 5/x)",
+          "resultado": "x = 20"
+        },
+        {
+          "digitar": "4 * 6 / 3",
+          "resultado": "Resultado: 8"
+        }
+      ],
+      "explicacao": "Direta (3 cadernos custam R$ 12, quanto custam 5?): monte a proporção. Inversa (4 operários fazem em 6 dias; 3 operários fazem em quantos?): 4 × 6 = 3 × x."
+    },
+    {
+      "id": "aumento_desconto",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Aumento e desconto",
+      "palavras": "aumento desconto reajuste acrescimo reducao sucessivos fator",
+      "caderno": "200 + 10% · 200 − 10%",
+      "digitar": [
+        "200 * (1 + 10%)",
+        "aumentos/descontos sucessivos: multiplique os fatores"
+      ],
+      "formula": "aumento: V·(1 + p) · desconto: V·(1 − p)",
+      "exemplos": [
+        {
+          "digitar": "200 * (1 + 10%) * (1 - 10%)",
+          "resultado": "Resultado: 198"
+        }
+      ],
+      "explicacao": "Aumentar 10% e depois descontar 10% NÃO volta ao valor inicial: 200 × 1,1 × 0,9 = 198."
+    },
+    {
+      "id": "juros",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Juros simples e compostos",
+      "palavras": "juros simples compostos montante capital taxa rendimento",
+      "caderno": "M = C(1 + i·t) · M = C(1 + i)ᵗ",
+      "digitar": [
+        "juros_simples(C; taxa; tempo)",
+        "juros_compostos(C; taxa; tempo)",
+        "taxa 2% ou 0,02, no mesmo período do tempo"
+      ],
+      "formula": "simples: J = C·i·t, M = C·(1 + i·t) · compostos: M = C·(1 + i)^t",
+      "exemplos": [
+        {
+          "digitar": "juros_simples(1000; 2%; 12)",
+          "resultado": "Montante: R$ 1.240"
+        },
+        {
+          "digitar": "juros_compostos(1000; 2%; 12)",
+          "resultado": "Montante: R$ 1.268,24"
+        }
+      ],
+      "explicacao": "Taxa ao mês com tempo em meses (ou ao ano com anos). Juros = montante − capital."
+    },
+    {
+      "id": "pa",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Progressão aritmética (PA)",
+      "palavras": "pa progressao aritmetica razao termo geral soma",
+      "caderno": "aₙ = a₁ + (n − 1)·r",
+      "digitar": [
+        "termo: 3 + (10 - 1)*4",
+        "soma: (3 + 39)*10/2"
+      ],
+      "formula": "aₙ = a₁ + (n − 1)·r · Sₙ = (a₁ + aₙ)·n/2",
+      "exemplos": [
+        {
+          "digitar": "3 + (10 - 1)*4",
+          "resultado": "Resultado: 39"
+        },
+        {
+          "digitar": "(3 + 39)*10/2",
+          "resultado": "Resultado: 210"
+        }
+      ],
+      "explicacao": "Exemplo: a₁ = 3, r = 4. O 10º termo é 39 e a soma dos 10 primeiros é 210."
+    },
+    {
+      "id": "pg",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Progressão geométrica (PG)",
+      "palavras": "pg progressao geometrica razao termo geral soma",
+      "caderno": "aₙ = a₁·qⁿ⁻¹",
+      "digitar": [
+        "termo: 2 * 3^(5 - 1)",
+        "soma: 2 * (3^5 - 1)/(3 - 1)"
+      ],
+      "formula": "aₙ = a₁·q^(n − 1) · Sₙ = a₁·(qⁿ − 1)/(q − 1)",
+      "exemplos": [
+        {
+          "digitar": "2 * 3^(5 - 1)",
+          "resultado": "Resultado: 162"
+        },
+        {
+          "digitar": "2 * (3^5 - 1)/(3 - 1)",
+          "resultado": "Resultado: 242"
+        }
+      ],
+      "explicacao": "Exemplo: a₁ = 2, q = 3. O 5º termo é 162 e a soma dos 5 primeiros é 242 (2 + 6 + 18 + 54 + 162)."
+    },
+    {
+      "id": "combinatoria",
+      "bloco": "Conhecimentos numéricos",
+      "tipo": "formula",
+      "titulo": "Análise combinatória",
+      "palavras": "combinatoria combinacao arranjo permutacao anagrama principio multiplicativo contagem ordem importa",
+      "caderno": "C(10,3) · A(5,2) · P₅",
+      "digitar": [
+        "comb(n; p): a ordem NÃO importa (comissões, grupos)",
+        "arranjo(n; p): a ordem importa (pódio, senhas)",
+        "perm(n) = n!; com letras repetidas: perm(5; 3; 2)",
+        "princípio multiplicativo: 3 * 4"
+      ],
+      "formula": "C(n,p) = n!/(p!·(n − p)!) · A(n,p) = n!/(n − p)! · Pₙ = n!",
+      "exemplos": [
+        {
+          "digitar": "comb(10; 3)",
+          "resultado": "Resultado: 120"
+        },
+        {
+          "digitar": "arranjo(5; 2)",
+          "resultado": "Resultado: 20"
+        },
+        {
+          "digitar": "perm(5; 3; 2)",
+          "resultado": "Resultado: 10"
+        }
+      ],
+      "explicacao": "Pergunta-chave: trocar a ordem gera um caso novo? Sim → arranjo. Não → combinação. ARARA: 5 letras, A 3 vezes e R 2 vezes → perm(5; 3; 2) = 10 anagramas."
+    },
+    {
+      "id": "pitagoras",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Teorema de Pitágoras",
+      "palavras": "pitagoras hipotenusa cateto triangulo retangulo",
+      "caderno": "a² = b² + c²",
+      "digitar": [
+        "hipotenusa: sqrt(3^2 + 4^2)",
+        "cateto: sqrt(10^2 - 6^2)"
+      ],
+      "formula": "a² = b² + c²",
+      "exemplos": [
+        {
+          "digitar": "sqrt(3^2 + 4^2)",
+          "resultado": "Resultado: 5"
+        },
+        {
+          "digitar": "sqrt(10^2 - 6^2)",
+          "resultado": "Resultado: 8"
+        }
+      ],
+      "explicacao": "a é a hipotenusa (o lado oposto ao ângulo reto, o maior)."
+    },
+    {
+      "id": "areas",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Áreas",
+      "palavras": "area areas retangulo quadrado triangulo trapezio losango circulo",
+      "caderno": "A = b·h · A = b·h/2 · A = πr²",
+      "digitar": [
+        "trapézio: (8 + 4) * 3 / 2",
+        "círculo de raio 3: pi * 3^2"
+      ],
+      "formula": "retângulo b·h · triângulo b·h/2 · trapézio (B + b)·h/2 · losango D·d/2 · círculo π·r²",
+      "exemplos": [
+        {
+          "digitar": "(8 + 4) * 3 / 2",
+          "resultado": "Resultado: 18"
+        },
+        {
+          "digitar": "pi * 3^2",
+          "resultado": "9*π ≈ 28,2743"
+        }
+      ],
+      "explicacao": "Resultado com π sai exato (9π) e em decimal. Se a questão disser π = 3, use 3 no lugar de pi."
+    },
+    {
+      "id": "circunferencia",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Comprimento da circunferência",
+      "palavras": "circunferencia comprimento perimetro volta raio",
+      "caderno": "C = 2πr",
+      "digitar": [
+        "2 * pi * 5"
+      ],
+      "formula": "C = 2·π·r",
+      "exemplos": [
+        {
+          "digitar": "2 * pi * 5",
+          "resultado": "10*π ≈ 31,4159"
+        }
+      ],
+      "explicacao": "Perímetro do círculo. Uma volta de roda de raio r percorre 2πr."
+    },
+    {
+      "id": "volumes",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Volumes",
+      "palavras": "volume volumes cubo prisma paralelepipedo cilindro cone piramide esfera capacidade litro",
+      "caderno": "V = Ab·h · V = πr²h · V = 4πr³/3",
+      "digitar": [
+        "cilindro de raio 2 e altura 5: pi * 2^2 * 5",
+        "esfera de raio 3: 4/3 * pi * 3^3"
+      ],
+      "formula": "prisma/cilindro Ab·h · cone/pirâmide Ab·h/3 · cilindro π·r²·h · esfera 4·π·r³/3",
+      "exemplos": [
+        {
+          "digitar": "pi * 2^2 * 5",
+          "resultado": "20*π ≈ 62,8319"
+        },
+        {
+          "digitar": "4/3 * pi * 3^3",
+          "resultado": "36*π ≈ 113,0973"
+        }
+      ],
+      "explicacao": "Cone e pirâmide valem 1/3 do prisma/cilindro de mesma base e altura. 1 dm³ = 1 litro."
+    },
+    {
+      "id": "trig_triangulo",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Trigonometria no triângulo retângulo",
+      "palavras": "seno cosseno tangente triangulo retangulo oposto adjacente hipotenusa rampa escada altura",
+      "caderno": "sen = CO/H · cos = CA/H · tg = CO/CA",
+      "digitar": [
+        "escada de 10 m a 30° do chão, altura: 10 * sen(30)"
+      ],
+      "formula": "sen θ = CO/H · cos θ = CA/H · tg θ = CO/CA",
+      "exemplos": [
+        {
+          "digitar": "10 * sen(30)",
+          "resultado": "Resultado: 5"
+        }
+      ],
+      "explicacao": "CO = cateto oposto ao ângulo, CA = cateto adjacente, H = hipotenusa."
+    },
+    {
+      "id": "semelhanca",
+      "bloco": "Conhecimentos geométricos",
+      "tipo": "formula",
+      "titulo": "Semelhança e Teorema de Tales",
+      "palavras": "semelhanca semelhantes tales proporcao sombra triangulos",
+      "caderno": "a/b = c/x",
+      "digitar": [
+        "resolver(4/6 = 10/x)"
+      ],
+      "formula": "a/a' = b/b' = c/c'",
+      "exemplos": [
+        {
+          "digitar": "resolver(4/6 = 10/x)",
+          "resultado": "x = 15"
+        }
+      ],
+      "explicacao": "Lados correspondentes de figuras semelhantes são proporcionais (problemas de sombra e altura)."
+    },
+    {
+      "id": "media_ponderada",
+      "bloco": "Conhecimentos de estatística e probabilidade",
+      "tipo": "formula",
+      "titulo": "Média ponderada",
+      "palavras": "media ponderada peso pesos nota",
+      "caderno": "(7·2 + 8·3)/(2 + 3)",
+      "digitar": [
+        "(7*2 + 8*3)/(2 + 3)"
+      ],
+      "formula": "Mp = (x₁·p₁ + x₂·p₂ + …)/(p₁ + p₂ + …)",
+      "exemplos": [
+        {
+          "digitar": "(7*2 + 8*3)/(2 + 3)",
+          "resultado": "38/5 = 7,6"
+        }
+      ],
+      "explicacao": "Cada valor vezes o seu peso, dividido pela soma dos pesos. Média simples, moda e mediana: estatistica_descritiva."
+    },
+    {
+      "id": "probabilidade",
+      "bloco": "Conhecimentos de estatística e probabilidade",
+      "tipo": "formula",
+      "titulo": "Probabilidade",
+      "palavras": "probabilidade chance favoraveis possiveis evento dado moeda sorteio",
+      "caderno": "P = favoráveis/possíveis",
+      "digitar": [
+        "3/6",
+        "eventos independentes ('e'): 1/2 * 1/2",
+        "com combinação: comb(4; 2)/comb(10; 2)"
+      ],
+      "formula": "P(A) = casos favoráveis / casos possíveis",
+      "exemplos": [
+        {
+          "digitar": "3/6",
+          "resultado": "1/2 = 0,5"
+        },
+        {
+          "digitar": "1/2 * 1/2",
+          "resultado": "1/4 = 0,25"
+        },
+        {
+          "digitar": "comb(4; 2)/comb(10; 2)",
+          "resultado": "2/15 ≈ 0,1333"
+        }
+      ],
+      "explicacao": "'E' (os dois acontecem, independentes) multiplica; 'ou' (um ou outro, sem acontecer junto) soma."
+    },
+    {
+      "id": "bhaskara",
+      "bloco": "Conhecimentos algébricos",
+      "tipo": "formula",
+      "titulo": "Equação do 2º grau (Bhaskara)",
+      "palavras": "bhaskara segundo grau delta discriminante raizes quadratica",
+      "caderno": "Δ = b² − 4ac · x = (−b ± √Δ)/2a",
+      "digitar": [
+        "direto: x^2 - 5x + 6 = 0",
+        "só o delta: (-5)^2 - 4*1*6"
+      ],
+      "formula": "Δ = b² − 4·a·c · x = (−b ± √Δ)/(2·a)",
+      "exemplos": [
+        {
+          "digitar": "x^2 - 5x + 6 = 0",
+          "resultado": "x = 2 ou x = 3"
+        },
+        {
+          "digitar": "(-5)^2 - 4*1*6",
+          "resultado": "Resultado: 1"
+        }
+      ],
+      "explicacao": "Δ > 0: duas raízes reais; Δ = 0: uma; Δ < 0: nenhuma real. Use parênteses em b negativo: (-5)^2."
+    },
+    {
+      "id": "vertice",
+      "bloco": "Conhecimentos algébricos",
+      "tipo": "formula",
+      "titulo": "Vértice da parábola (máximo e mínimo)",
+      "palavras": "vertice parabola maximo minimo funcao quadratica",
+      "caderno": "xv = −b/2a · yv = −Δ/4a",
+      "digitar": [
+        "f(x) = x² − 4x + 3 → xv: -(-4)/(2*1)",
+        "yv: -((-4)^2 - 4*1*3)/(4*1)"
+      ],
+      "formula": "xᵥ = −b/(2·a) · yᵥ = −Δ/(4·a)",
+      "exemplos": [
+        {
+          "digitar": "-(-4)/(2*1)",
+          "resultado": "Resultado: 2"
+        },
+        {
+          "digitar": "-((-4)^2 - 4*1*3)/(4*1)",
+          "resultado": "Resultado: -1"
+        }
+      ],
+      "explicacao": "a > 0: o vértice é ponto de mínimo; a < 0: de máximo (lucro máximo, altura máxima)."
+    },
+    {
+      "id": "funcao_afim",
+      "bloco": "Conhecimentos algébricos",
+      "tipo": "formula",
+      "titulo": "Função do 1º grau (afim)",
+      "palavras": "funcao afim primeiro grau linear taxa de variacao reta",
+      "caderno": "f(x) = ax + b",
+      "digitar": [
+        "valor em x = 5 de f(x) = 2x + 3: 2*5 + 3",
+        "taxa de variação entre (1, 5) e (3, 9): (9 - 5)/(3 - 1)"
+      ],
+      "formula": "f(x) = a·x + b · a = (y₂ − y₁)/(x₂ − x₁)",
+      "exemplos": [
+        {
+          "digitar": "2*5 + 3",
+          "resultado": "Resultado: 13"
+        },
+        {
+          "digitar": "(9 - 5)/(3 - 1)",
+          "resultado": "Resultado: 2"
+        }
+      ],
+      "explicacao": "a é a taxa de variação (quanto y muda quando x aumenta 1); b é o valor inicial, em x = 0."
+    },
+    {
+      "id": "exponencial_log",
+      "bloco": "Conhecimentos algébricos",
+      "tipo": "formula",
+      "titulo": "Equação exponencial e logaritmo",
+      "palavras": "exponencial log logaritmo crescimento decaimento meia vida",
+      "caderno": "2ˣ = 32 ⇔ x = log₂ 32",
+      "digitar": [
+        "resolver(2^x = 32)",
+        "log(32; 2)"
+      ],
+      "formula": "aˣ = b ⇔ x = log_a(b)",
+      "exemplos": [
+        {
+          "digitar": "resolver(2^x = 32)",
+          "resultado": "x = 5"
+        },
+        {
+          "digitar": "log(32; 2)",
+          "resultado": "Resultado: 5"
+        }
+      ],
+      "explicacao": "Propriedades: log(a·b) = log a + log b · log(a/b) = log a − log b · log(aⁿ) = n·log a."
+    },
+    {
+      "id": "distancia_pontos",
+      "bloco": "Conhecimentos algébricos/geométricos",
+      "tipo": "formula",
+      "titulo": "Distância entre dois pontos",
+      "palavras": "distancia pontos plano cartesiano geometria analitica",
+      "caderno": "d = √((x₂ − x₁)² + (y₂ − y₁)²)",
+      "digitar": [
+        "(1, 2) e (4, 6): sqrt((4 - 1)^2 + (6 - 2)^2)"
+      ],
+      "formula": "d = √((x₂ − x₁)² + (y₂ − y₁)²)",
+      "exemplos": [
+        {
+          "digitar": "sqrt((4 - 1)^2 + (6 - 2)^2)",
+          "resultado": "Resultado: 5"
+        }
+      ],
+      "explicacao": "É o Pitágoras no plano cartesiano."
+    },
+    {
+      "id": "ponto_medio",
+      "bloco": "Conhecimentos algébricos/geométricos",
+      "tipo": "formula",
+      "titulo": "Ponto médio",
+      "palavras": "ponto medio meio segmento",
+      "caderno": "M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+      "digitar": [
+        "(1, 2) e (4, 6): (1 + 4)/2 e (2 + 6)/2"
+      ],
+      "formula": "M = ((x₁ + x₂)/2 ; (y₁ + y₂)/2)",
+      "exemplos": [
+        {
+          "digitar": "(1 + 4)/2",
+          "resultado": "5/2 = 2,5"
+        },
+        {
+          "digitar": "(2 + 6)/2",
+          "resultado": "Resultado: 4"
+        }
+      ],
+      "explicacao": "Média das coordenadas x e média das coordenadas y. Aqui M = (2,5; 4)."
+    },
+    {
+      "id": "coeficiente_angular",
+      "bloco": "Conhecimentos algébricos/geométricos",
+      "tipo": "formula",
+      "titulo": "Coeficiente angular e equação da reta",
+      "palavras": "coeficiente angular inclinacao reta equacao",
+      "caderno": "m = (y₂ − y₁)/(x₂ − x₁)",
+      "digitar": [
+        "(1, 2) e (4, 6): (6 - 2)/(4 - 1)"
+      ],
+      "formula": "m = (y₂ − y₁)/(x₂ − x₁) · y − y₁ = m·(x − x₁)",
+      "exemplos": [
+        {
+          "digitar": "(6 - 2)/(4 - 1)",
+          "resultado": "4/3 ≈ 1,3333"
+        }
+      ],
+      "explicacao": "Com m e um ponto: y − y₁ = m·(x − x₁). m > 0 sobe, m < 0 desce, m = 0 é reta horizontal."
+    }
+  ]
+}
