@@ -1,0 +1,193 @@
+{
+  "observacao": "Formulário de Física do Tutor ENEM. Blocos: objetos de conhecimento de Física da Matriz de Referência do ENEM (INEP, pp. 23–26). Fórmulas: leis clássicas do ensino médio. Constantes: valores usuais em questões do ENEM, com o valor de referência (SI 2019 / CODATA 2018) na descrição. Todo exemplo é executado pela calculadora (motor da Seção 7.6.0 + constantes abaixo) no Run All e conferido com assert: se um resultado não bater, a célula 7.7 para.",
+  "fonte_temas": "docs/enem_matriz_referencia.pdf (objetos de conhecimento de Física, pp. 23–26)",
+  "fonte_constantes": "Valores de referência: SI (BIPM, 2019; c, e e h são exatos por definição) e CODATA 2018 (G, k, R). O ENEM costuma informar no enunciado o valor a usar (ex.: g = 10 m/s²): siga sempre o enunciado.",
+  "constantes": [
+    {"nome": "g", "valor": "10", "unidade": "m/s²", "descricao": "aceleração da gravidade (o ENEM costuma adotar 10; o valor padrão é 9,80665 m/s²)"},
+    {"nome": "c_luz", "valor": "3e8", "unidade": "m/s", "descricao": "velocidade da luz no vácuo (exata: 299 792 458 m/s)"},
+    {"nome": "som_ar", "valor": "340", "unidade": "m/s", "descricao": "velocidade do som no ar (valor usual nas questões; depende da temperatura)"},
+    {"nome": "grav", "valor": "6.67e-11", "unidade": "N·m²/kg²", "descricao": "constante da gravitação universal G (CODATA: 6,674 × 10⁻¹¹)"},
+    {"nome": "k0", "valor": "9e9", "unidade": "N·m²/C²", "descricao": "constante eletrostática no vácuo (≈ 8,988 × 10⁹)"},
+    {"nome": "carga_e", "valor": "1.6e-19", "unidade": "C", "descricao": "carga elementar (exata: 1,602176634 × 10⁻¹⁹ C)"},
+    {"nome": "h_planck", "valor": "6.63e-34", "unidade": "J·s", "descricao": "constante de Planck (exata: 6,62607015 × 10⁻³⁴ J·s)"},
+    {"nome": "r_gases", "valor": "8.31", "unidade": "J/(mol·K)", "descricao": "constante universal dos gases (≈ 8,314)"},
+    {"nome": "dens_agua", "valor": "1000", "unidade": "kg/m³", "descricao": "densidade da água (= 1 g/cm³)"},
+    {"nome": "c_agua", "valor": "1", "unidade": "cal/(g·°C)", "descricao": "calor específico da água (≈ 4186 J/(kg·°C))"},
+    {"nome": "patm", "valor": "1e5", "unidade": "Pa", "descricao": "pressão atmosférica ao nível do mar (1 atm = 101 325 Pa ≈ 10⁵ Pa)"}
+  ],
+  "verbetes": [
+    {
+      "id": "notacao_cientifica",
+      "bloco": "Conhecimentos básicos e fundamentais",
+      "titulo": "Notação científica e ordem de grandeza",
+      "palavras": "notacao cientifica potencia de dez ordem de grandeza estimativa unidades si sistema internacional",
+      "formulas": [
+        "Notação científica: N × 10ⁿ, com 1 ≤ N < 10",
+        "Ordem de grandeza: 10ⁿ se N < √10 ≈ 3,16; 10ⁿ⁺¹ se N ≥ 3,16",
+        "Multiplicar: soma os expoentes · dividir: subtrai os expoentes"
+      ],
+      "exemplos": [
+        {"pergunta": "massa da Terra (6 × 10²⁴ kg) vezes 2 × 10³", "digitar": "6 x 10^24 * 2 x 10^3", "resultado": "1,2 × 10^28"}
+      ],
+      "dica": "Na calculadora, escreva a potência de dez com ^: 3 x 10^8 (o 'x' entre números vira multiplicação)."
+    },
+    {
+      "id": "cinematica",
+      "bloco": "O movimento, o equilíbrio e a descoberta de leis físicas",
+      "titulo": "Cinemática (MU, MUV e queda livre)",
+      "palavras": "cinematica velocidade media aceleracao movimento uniforme variado mru muv mruv queda livre torricelli deslocamento tempo espaco",
+      "formulas": [
+        "Velocidade média: v_m = Δs / Δt",
+        "MU: s = s₀ + v·t",
+        "MUV: v = v₀ + a·t",
+        "MUV: s = s₀ + v₀·t + a·t²/2",
+        "Torricelli: v² = v₀² + 2·a·Δs",
+        "Queda livre (v₀ = 0): h = g·t²/2 e v = g·t"
+      ],
+      "exemplos": [
+        {"pergunta": "carro a 72 km/h freia com 5 m/s² até parar: distância (Torricelli)", "digitar": "(72/3,6)^2 / (2 * 5)", "resultado": "Resultado: 40"},
+        {"pergunta": "queda livre durante 3 s: altura", "digitar": "g * 3^2 / 2", "resultado": "Resultado: 45"}
+      ],
+      "dica": "Converta km/h para m/s dividindo por 3,6 antes de usar as fórmulas no SI."
+    },
+    {
+      "id": "dinamica",
+      "bloco": "O movimento, o equilíbrio e a descoberta de leis físicas",
+      "titulo": "Dinâmica (leis de Newton, atrito, impulso)",
+      "palavras": "dinamica forca newton peso atrito normal tracao centripeta circular quantidade de movimento momento linear impulso colisao inercia",
+      "formulas": [
+        "2ª lei de Newton: F_R = m·a",
+        "Peso: P = m·g",
+        "Atrito: F_at = μ·N",
+        "Resultante centrípeta: F_c = m·v²/R",
+        "Quantidade de movimento: Q = m·v",
+        "Impulso: I = F·Δt = ΔQ",
+        "Sistema isolado: Q_antes = Q_depois"
+      ],
+      "exemplos": [
+        {"pergunta": "força resultante para acelerar 1200 kg a 2,5 m/s²", "digitar": "1200 * 2,5", "resultado": "Resultado: 3.000"},
+        {"pergunta": "resultante centrípeta: 800 kg a 20 m/s numa curva de raio 50 m", "digitar": "800 * 20^2 / 50", "resultado": "Resultado: 6.400"}
+      ],
+      "dica": "Desenhe o diagrama de forças antes de escrever F_R = m·a."
+    },
+    {
+      "id": "hidrostatica",
+      "bloco": "O movimento, o equilíbrio e a descoberta de leis físicas",
+      "titulo": "Equilíbrio e hidrostática (pressão, Stevin, Pascal, empuxo)",
+      "palavras": "hidrostatica pressao densidade stevin pascal arquimedes empuxo flutuacao prensa hidraulica torque momento equilibrio alavanca",
+      "formulas": [
+        "Pressão: p = F/A (Pa = N/m²)",
+        "Densidade: d = m/V",
+        "Stevin: p = p_atm + d·g·h",
+        "Pascal (prensa hidráulica): F₁/A₁ = F₂/A₂",
+        "Empuxo (Arquimedes): E = d_líquido · V_submerso · g",
+        "Torque: M = F·d · equilíbrio: ΣF = 0 e ΣM = 0"
+      ],
+      "exemplos": [
+        {"pergunta": "pressão total a 10 m de profundidade na água", "digitar": "patm + dens_agua * g * 10", "resultado": "Resultado: 200.000"},
+        {"pergunta": "prensa: 100 N no êmbolo de 0,01 m², êmbolo maior de 0,5 m²", "digitar": "100 * 0,5 / 0,01", "resultado": "Resultado: 5.000"}
+      ],
+      "dica": "A cada 10 m de água a pressão aumenta cerca de 1 atm (10⁵ Pa)."
+    },
+    {
+      "id": "energia",
+      "bloco": "Energia, trabalho e potência",
+      "titulo": "Energia, trabalho e potência",
+      "palavras": "energia cinetica potencial gravitacional elastica mecanica conservacao trabalho potencia rendimento joule watt dissipacao",
+      "formulas": [
+        "Trabalho: τ = F·d·cos θ",
+        "Energia cinética: E_c = m·v²/2",
+        "Energia potencial gravitacional: E_pg = m·g·h",
+        "Energia potencial elástica: E_pel = k·x²/2",
+        "Sem atrito: E_mecânica = E_c + E_p = constante",
+        "Potência: P = τ/Δt = E/Δt (W = J/s)",
+        "Rendimento: η = P_útil / P_total"
+      ],
+      "exemplos": [
+        {"pergunta": "velocidade ao cair de 5 m (energia conservada)", "digitar": "sqrt(2 * g * 5)", "resultado": "Resultado: 10"},
+        {"pergunta": "energia cinética de 1000 kg a 20 m/s", "digitar": "1000 * 20^2 / 2", "resultado": "Resultado: 200.000"}
+      ],
+      "dica": "Igualar m·g·h = m·v²/2 dá v = √(2·g·h): a massa se cancela."
+    },
+    {
+      "id": "gravitacao",
+      "bloco": "A Mecânica e o funcionamento do Universo",
+      "titulo": "Gravitação universal e leis de Kepler",
+      "palavras": "gravitacao universal newton kepler orbita planeta satelite mares corpos celestes gravidade",
+      "formulas": [
+        "Gravitação universal: F = G·M·m/d²",
+        "Gravidade na superfície: g = G·M/R²",
+        "1ª lei de Kepler: órbitas elípticas, com o Sol num dos focos",
+        "2ª lei de Kepler: áreas iguais em tempos iguais (mais rápido perto do Sol)",
+        "3ª lei de Kepler: T²/R³ = constante (mesmo astro central)"
+      ],
+      "exemplos": [
+        {"pergunta": "gravidade na superfície da Terra (M = 6 × 10²⁴ kg, R = 6,4 × 10⁶ m)", "digitar": "grav * 6 x 10^24 / (6,4 x 10^6)^2", "resultado": "9,7705"}
+      ],
+      "dica": "Dobrar a distância divide a força por 4 (inverso do quadrado)."
+    },
+    {
+      "id": "eletricidade",
+      "bloco": "Fenômenos elétricos e magnéticos",
+      "titulo": "Eletricidade (Ohm, potência, consumo, circuitos)",
+      "palavras": "eletricidade corrente tensao voltagem resistencia ohm potencia eletrica consumo kwh conta de luz circuito serie paralelo resistor chuveiro carga coulomb resistividade efeito joule",
+      "formulas": [
+        "Corrente: i = Q/Δt · carga: Q = n·e",
+        "Lei de Ohm: U = R·i",
+        "Potência: P = U·i = R·i² = U²/R",
+        "Energia consumida: E = P·Δt (em kWh: potência em kW × tempo em h)",
+        "Resistores em série: R_eq = R₁ + R₂ + …",
+        "Resistores em paralelo: 1/R_eq = 1/R₁ + 1/R₂ + …",
+        "Resistividade: R = ρ·L/A",
+        "Lei de Coulomb: F = k·|Q₁·Q₂|/d²"
+      ],
+      "exemplos": [
+        {"pergunta": "chuveiro de 5500 W ligado 15 min por dia durante 30 dias", "digitar": "5,5 * 0,25 * 30", "resultado": "41,25"},
+        {"pergunta": "resistores de 6 Ω e 3 Ω em paralelo", "digitar": "1/(1/6 + 1/3)", "resultado": "Resultado: 2"},
+        {"pergunta": "Coulomb: 2 μC e 3 μC a 0,3 m", "digitar": "k0 * 2 x 10^-6 * 3 x 10^-6 / 0,3^2", "resultado": "0,6"}
+      ],
+      "dica": "Consumo em kWh: passe a potência para kW (÷ 1000) e o tempo para horas antes de multiplicar."
+    },
+    {
+      "id": "ondas_optica",
+      "bloco": "Oscilações, ondas, óptica e radiação",
+      "titulo": "Ondas e óptica (v = λ·f, refração, lentes)",
+      "palavras": "ondas ondulatoria frequencia periodo comprimento de onda som luz optica refracao reflexao snell indice lente espelho gauss aumento vergencia miopia",
+      "formulas": [
+        "Equação fundamental: v = λ·f",
+        "Período: T = 1/f",
+        "Índice de refração: n = c/v",
+        "Snell: n₁·sen θ₁ = n₂·sen θ₂",
+        "Lentes e espelhos (Gauss): 1/f = 1/p + 1/p'",
+        "Aumento: A = i/o = −p'/p",
+        "Vergência: V = 1/f (dioptria, com f em metros)"
+      ],
+      "exemplos": [
+        {"pergunta": "comprimento de onda de um som de 680 Hz no ar", "digitar": "som_ar / 680", "resultado": "0,5"},
+        {"pergunta": "velocidade da luz num vidro de índice 1,5", "digitar": "c_luz / 1,5", "resultado": "Resultado: 200.000.000"}
+      ],
+      "dica": "Na refração a frequência não muda: mudam a velocidade e o comprimento de onda."
+    },
+    {
+      "id": "termica",
+      "bloco": "O calor e os fenômenos térmicos",
+      "titulo": "Calor e termodinâmica",
+      "palavras": "calor temperatura calorimetria calor especifico latente sensivel dilatacao gases ideais clapeyron termodinamica carnot maquina termica rendimento escalas celsius kelvin fahrenheit",
+      "formulas": [
+        "Calor sensível: Q = m·c·Δθ",
+        "Calor latente: Q = m·L",
+        "Dilatação linear: ΔL = L₀·α·Δθ",
+        "Gases ideais (Clapeyron): p·V = n·R·T (T em kelvin)",
+        "Transformação gasosa: p₁·V₁/T₁ = p₂·V₂/T₂",
+        "1ª lei da Termodinâmica: ΔU = Q − τ",
+        "Rendimento de Carnot: η = 1 − T_fria/T_quente (em kelvin)",
+        "Escalas: T_K = T_C + 273 · T_F = 1,8·T_C + 32"
+      ],
+      "exemplos": [
+        {"pergunta": "aquecer 500 g de água de 20 °C a 80 °C (em calorias)", "digitar": "500 * c_agua * (80 - 20)", "resultado": "Resultado: 30.000"},
+        {"pergunta": "rendimento máximo entre 300 K e 500 K", "digitar": "1 - 300/500", "resultado": "0,4"}
+      ],
+      "dica": "Em gases e em Carnot a temperatura é SEMPRE em kelvin."
+    }
+  ]
+}
